@@ -1,0 +1,117 @@
+*,html,body{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+/*5种font-family通用字体	Serif 字体 ，Sans-serif 字体，Monospace 字体，Cursive 字体，Fantasy 字体
+ */
+header{
+	width: auto;
+	height: 10%;
+	background: #191919;
+	color: white;
+	font-size: 18px!important;
+	font-style: Italic;/*文字倾斜*/
+	line-height: 70px;
+	text-align: left;
+}
+header>img{
+	width: 90px;
+}
+header>li{
+	margin-right: 30px;
+	display: inline-block;	/* li的内容横向排列 */
+}
+#main{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 80%;
+	background: #ccc;
+}
+#main div.img_left div{
+	margin: 40px 8px;
+	padding: 40px;
+	font-size: 15px;
+	width: 95%;
+	height:auto;
+	background:#f0f0fe;
+	opacity: 1;/*透明度*/
+}
+#main div.img_left div button:hover{
+	background: green;
+}
+.img_left{
+	height: 480px;
+	width: 200px;
+	background: #00ff00;
+	position: absolute;
+	top: 120px;
+	opacity: 0.4;/*透明度*/
+}
+#main nav{
+	width: 100%;
+	height: 50px;
+	font-size: 35px;
+	text-align: center;/*居中显示文字*/
+	background: cyan;
+	border-radius: 5px;  /*椭圆边框*/
+}
+#main nav a{
+	display: inline;
+	text-decoration: none;	/* 超链接没有下划线 */
+	font-size: 20px;
+	margin-left: 20px;
+	padding:5px 20px;
+	border-radius: 3px 25px;  /*椭圆边框*/
+}
+#main nav a:hover{
+	background: #FF00FF;
+	text-decoration:underline;
+}
+#main main{
+	border: 1px solid red;
+	width: 70%;
+	height: 90%;
+	float: left;
+	background: #fff;
+}
+#main img{
+	width: 100%;
+	height: 100%;
+}
+/*#main section hgroup{
+	width: 100%;
+	height: 10%;
+	background: #eee;
+}*/
+#main aside{
+	border: 1px solid #0000ff;
+	background: #aaa;
+	border-radius: 8px;  /*椭圆边框*/
+	position: absolute;
+	right: 2px;
+	width: 29%;
+	height: 72%;
+}
+#main aside li{
+	position: relative;
+	margin: 15px auto;
+	width: auto;
+	height: 10px;
+	padding: 32px;
+	text-align: center;/*居中显示文字*/
+	font-size: 20px;
+	font-family:Monospace;
+	background: yellow;
+	border-radius: 8px;  /*椭圆边框*/
+}
+footer{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background: #444;
+}
